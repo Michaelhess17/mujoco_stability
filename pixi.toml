@@ -1,0 +1,13 @@
+[project]
+authors = ["Michael Hess <michaelhess17@yahoo.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "mujoco_stability"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.10.*"
+pip = ">=24.2,<25"
