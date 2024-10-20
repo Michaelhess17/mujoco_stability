@@ -9,5 +9,13 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-python = "3.10.*"
-pip = ">=24.2,<25"
+python = "*"
+ipykernel = "*"
+mediapy = "*"
+matplotlib = "*"
+
+[pypi-dependencies]
+jax = { version = "*", extras = ["cuda12"] }
+mujoco = "*"
+mujoco-mjx = "*"
+brax = "*"
